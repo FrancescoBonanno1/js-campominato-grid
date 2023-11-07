@@ -5,7 +5,7 @@ let contenitore = document.getElementsByClassName("contenitore");
 for (let i = 1; i<= numerocelle; i++) {
     const cella = document.createElement("div");
     cella.classList.add("formattazione");
-    contenitore.appendChild(cella);
+    contenitore.appendChild(cella)
     
    
     
