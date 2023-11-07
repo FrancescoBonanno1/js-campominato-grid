@@ -1,12 +1,18 @@
 //andiamo a recuperare classi e formattazioni con create element e classlist add, generiamo un ciclo for per fare il lavoro sporco al posto nostro
-let numerocelle = 100;
-let contenitore = document.getElementsByClassName("contenitore");
+let numerocelle = 80;
+let contenitore = document.getElementById("contenitore");
 
 for (let i = 1; i<= numerocelle; i++) {
     const cella = document.createElement("div");
     cella.classList.add("formattazione");
-    contenitore.appendChild(cella)
     
-   
+    document.getElementById("btnGO").addEventListener("click", function(){
+        contenitore.appendChild(cella);
+        console.log(numerocelle[i]);
+        
+    })
     
+    cella.addEventListener("click", function() {
+        cella.classList.toggle("colorecelle")
+    console.log(numerocelle[i])});
 }

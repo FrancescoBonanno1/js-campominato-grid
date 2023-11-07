@@ -5,33 +5,55 @@
     padding: 0%;
     font-family: sans-serif;
 }
+header{
+    background-color: rgb(136, 194, 245);
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+header img{
+    width: 14%;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+
+}
+#btnGO{
+    background-color: rgb(201, 38, 32);
+    color: rgb(235, 231, 231);
+    width: 15%;
+    height: 40%;
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    border-color: rgb(201, 127, 32);
+    font-weight: 900;
+}
 #centratura{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 80vh;
+    background-image: url(https://getwallpapers.com/wallpaper/full/1/c/8/1079104-bomberman-wallpaper-1920x1080-for-samsung-galaxy.jpg);
 }
-.contenitore{
-    background-color: chocolate;
+#contenitore{
     width: 80%;
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
 }
 .formattazione{
-    background-color: rgb(119, 26, 3);
+    background-color: rgb(119, 82, 3);
     width: calc(80% / 8);
     height: calc(80vh / 8) ;
-    border: 1px solid black;
+    border: 2px solid black;
 }
-header{
-    background-color: rgb(24, 118, 201);
-    width: 100%;
-    height: 10vh;
+.colorecelle{
+    background-color: green;
 }
 footer{
-    background-color: rgb(17, 112, 196);
+    background-color: rgb(136, 194, 245);
     width:100%;
     height: 10vh;
 }
