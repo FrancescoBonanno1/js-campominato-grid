@@ -14,15 +14,15 @@
 }
 .contenitore{
     background-color: chocolate;
-    width: 100%;
+    width: 80%;
     height: 80vh;
     display: flex;
     flex-wrap: wrap;
 }
 .formattazione{
-    background-color: aqua;
-    width: calc(100% / 10);
-    height: calc(80vh / 10) ;
+    background-color: rgb(119, 26, 3);
+    width: calc(80% / 8);
+    height: calc(80vh / 8) ;
     border: 1px solid black;
 }
 header{
