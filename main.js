@@ -5,14 +5,15 @@ let contenitore = document.getElementById("contenitore");
 for (let i = 1; i<= numerocelle; i++) {
     const cella = document.createElement("div");
     cella.classList.add("formattazione");
+    cella.innerText = (i);
     
     document.getElementById("btnGO").addEventListener("click", function(){
         contenitore.appendChild(cella);
-        console.log(numerocelle[i]);
+        console.log(i);
         
     })
     
     cella.addEventListener("click", function() {
         cella.classList.toggle("colorecelle")
-    console.log(numerocelle[i])});
+    console.log("hai cliccato la cella :" + i)});
 }
